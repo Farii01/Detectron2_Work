@@ -1,2 +1,2 @@
-# Detectron2_Work
-Detectron2 based project
+# Segmentation
+The dataset used contains image and segmentation mask and is efficiently integrated with PyTorch, a popular deep learning framework, to create data loaders and train models for image segmentation. Albumentations is a popular Python library also used here, for image augmentation. The model that is used here is built upon a U-Net architecture with a ResNet encoder as its backbone. The final segmentation head produces a binary mask with one channel as the output.
